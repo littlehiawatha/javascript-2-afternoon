@@ -20,7 +20,7 @@ let me = {
   name: 'Jacob', 
   age: 28,
 }
-alert(me.name);
+alert (me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -78,15 +78,17 @@ let backPack = {}
 
 var item = 'firstPocket'
 
-backPack.firstPocket = 'chapstick'
+// backPack.firstPocket = 'chapstick'
 
-
+backPack['firstPocket'] = 'chapstick'
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
+
+alert(backPack)
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -116,6 +118,10 @@ var user2 = {
 */
 
 //Code Here
+
+user2.name = 'Bryan G. Smith'
+user2.email = 'bryan.smith@devmounta.in'
+
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
